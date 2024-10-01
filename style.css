@@ -7,20 +7,24 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(206, 127, 255);
+    background-color: rgb(159, 37, 234);
 }
 
 h1{
     font-size: 4rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(38, 82, 213);
+    color: rgb(232, 131, 217);
     text-align: center;
+}
+span{
+    color:rgb(41, 195, 187);
 }
 
 .instrument-box{
     height: 80vh;
     width: 90vw;
     border: 2px solid black;
+    border-radius: 2rem;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -33,7 +37,13 @@ button{
     margin: 0 .5rem 0 .5rem;
     border: 2px solid black;
     border-radius: 2rem;
+    font-size: 5rem;
+    text-align:end;
+    color:rgba(45, 40, 40, 0.5);
+    
 }
+
+
 
 .crash{
     background-image: url(./images/crash.png);
@@ -63,5 +73,10 @@ button{
 .tom4{
     background-image: url(./images/tom4.png);
     background-size: cover;
+}
+
+.pressed{
+    opacity:.3;
+    border: 3px solid yellow;
 }
 
