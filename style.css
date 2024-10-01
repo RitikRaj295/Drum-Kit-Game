@@ -82,3 +82,91 @@ button{
 }
 
 
+@media only screen and (max-width: 600px) {
+    /* Styles for devices with a width less than or equal to 600px */
+    body {
+      background-color: rgb(98, 32, 143);
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .instrument-box{
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: rgb(46, 161, 237);
+        
+    }
+    button{
+        height:17vh;
+        width: 29vh;
+        margin: 2vw;
+        font-size: 1rem;
+        text-align:end;
+        color: rgb(8, 8, 8,0.7);
+    }
+    h1{
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(232, 131, 217);
+        text-align: center;
+    }
+    span{
+        color:#099dff;
+    }
+    
+
+    
+    .crash{
+        background-image: url(./images/crash.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    
+    }
+    .kick-bass{
+        background-image: url(./images/kick.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .snare{
+        background-image: url(./images/snare.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .tom1{
+        background-image: url(./images/tom1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .tom2{
+        background-image: url(./images/tom2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .tom3{
+        background-image: url(./images/tom3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .tom4{
+        background-image: url(./images/tom4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .pressed{
+        opacity:.3;
+        border: 3px solid yellow;
+    }
+    
+  }
