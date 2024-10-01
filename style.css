@@ -40,7 +40,7 @@ button{
     background-size: cover;
 
 }
-.kick{
+.kick-bass{
     background-image: url(./images/kick.png);
     background-size: cover;
 }
@@ -64,3 +64,4 @@ button{
     background-image: url(./images/tom4.png);
     background-size: cover;
 }
+
