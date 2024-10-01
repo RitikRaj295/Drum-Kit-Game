@@ -13,12 +13,13 @@ body{
 h1{
     font-size: 4rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(38, 82, 213)
+    color: rgb(38, 82, 213);
+    text-align: center;
 }
 
 .instrument-box{
     height: 80vh;
-    width: 95%;
+    width: 90vw;
     border: 2px solid black;
     display: flex;
     justify-content:center;
@@ -32,4 +33,34 @@ button{
     margin: 0 .5rem 0 .5rem;
     border: 2px solid black;
     border-radius: 2rem;
+}
+
+.crash{
+    background-image: url(./images/crash.png);
+    background-size: cover;
+
+}
+.kick{
+    background-image: url(./images/kick.png);
+    background-size: cover;
+}
+.snare{
+    background-image: url(./images/snare.png);
+    background-size: cover;
+}
+.tom1{
+    background-image: url(./images/tom1.png);
+    background-size: cover;
+}
+.tom2{
+    background-image: url(./images/tom2.png);
+    background-size: cover;
+}
+.tom3{
+    background-image: url(./images/tom3.png);
+    background-size: cover;
+}
+.tom4{
+    background-image: url(./images/tom4.png);
+    background-size: cover;
 }
