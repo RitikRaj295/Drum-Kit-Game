@@ -82,7 +82,7 @@ button{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
     /* Styles for devices with a width less than or equal to 600px */
     body {
       background-color: rgb(98, 32, 143);
@@ -91,7 +91,7 @@ button{
       justify-content: center;
     }
     .instrument-box{
-        height: 85vh;
+        height: cover;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -106,6 +106,7 @@ button{
         font-size: 1rem;
         text-align:end;
         color: rgb(8, 8, 8,0.7);
+        
     }
     h1{
         font-size: 2rem;
