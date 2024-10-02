@@ -82,7 +82,7 @@ button{
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
     /* Styles for devices with a width less than or equal to 600px */
     body {
       background-color: rgb(25, 72, 30);
