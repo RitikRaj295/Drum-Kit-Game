@@ -8,17 +8,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(159, 37, 234);
+    background-color: rgb(20, 86, 75);
 }
 
 h1{
     font-size: 4rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(232, 131, 217);
+    color: rgb(34, 170, 170);
     text-align: center;
 }
 span{
-    color:rgb(41, 195, 187);
+    color:rgb(144, 156, 12);
 }
 
 .instrument-box{
@@ -29,7 +29,7 @@ span{
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: rgb(104, 30, 194);
+    background-color: rgb(119, 186, 37);
 }
 
 button{
@@ -78,14 +78,14 @@ button{
 
 .pressed{
     opacity:.3;
-    border: 3px solid yellow;
+    border: 3px solid black;
 }
 
 
 @media only screen and (max-width: 450px) {
     /* Styles for devices with a width less than or equal to 600px */
     body {
-      background-color: rgb(98, 32, 143);
+      background-color: rgb(25, 72, 30);
       display:flex;
       align-items: center;
       justify-content: center;
@@ -96,12 +96,12 @@ button{
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: row;
-        background-color: rgb(46, 161, 237);
+        background-color: rgb(89, 186, 20);
         
     }
     button{
         height:17vh;
-        width: 29vh;
+        width: 29vw;
         margin: 2vw;
         font-size: 1rem;
         text-align:end;
@@ -111,11 +111,11 @@ button{
     h1{
         font-size: 2rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: rgb(232, 131, 217);
+        color: rgb(4, 255, 226);
         text-align: center;
     }
     span{
-        color:#099dff;
+        color:#5e97e2;
     }
     
 
